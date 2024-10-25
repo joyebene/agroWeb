@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative h-[calc(100vh-6rem)] mt-[6rem] overflow-hidden ">
+    <div className="relative h-[calc(100vh-6rem)] mt-[8rem] overflow-hidden">
       <video
         loop
         autoPlay
@@ -35,14 +35,17 @@ const Hero = () => {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
           >
-            Ad Forerunner Agro ventures
+            Ad Forerunner Agro Ventures
           </h1>
         </div>
         <h2 className="bg-inherit md:text-xl lg:text-2xl md:text-center text-lg">
           Cultivating a Sustainable Future, and <br />
           Empowering Agriculture Through Innovation
         </h2>
-        <Link href="/about" className="rounded-md py-2 px-4  bg-white mt-5 md:py-3 md:px-6 hover:bg-green-500 hover:border-2 hover:text-white">
+        <Link
+          href="/about"
+          className="rounded-md py-2 px-4  bg-white mt-5 md:py-3 md:px-6 hover:bg-green-500 hover:border-2 hover:text-white"
+        >
           Get Started
         </Link>
       </div>

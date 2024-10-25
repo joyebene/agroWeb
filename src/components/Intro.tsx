@@ -3,10 +3,11 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="shadow-md">
+    <div className="">
 
     {/* INTRO SECTION */}
     <div className=" relative flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center bg-white  text-green-600 h-[calc(100vh-6rem)] p-4 w-screen  rounded-lg md:px-16">
+
       {/* TEXT CONTaINER */}
       <div className=" text-center flex-1 md:w-[45%] pr-4 ">
         <h1 className="font-bold text-3xl flex-wrap pt-9 pb-4 md:text-4xl lg:text-5xl">Welcome to Ad Forerunner Agro ventures</h1>
@@ -24,7 +25,7 @@ const Intro = () => {
     {/* WHAT WE OFFER SECTION */}
     <div className="py-12 w-full">
       <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center text-green-500 my-4">What We Do</h1>
-      <div className="flex flex-col md:flex-row md:items-stretch items-center justify-center mt-6">
+      <div className="flex flex-col md:flex-row md:items-stretch items-center justify-center mt-6 px-6 md:px-10">
         <div className=" p-4 text-center bg-green-500 m-5 rounded-2xl shadow-xl">
           <Image src="/icons3.png" alt="img" width={90} height={90} className="mx-auto mb-5 pt-4" />
           <h2 className="font-bold text-lg md:text-xl lg:text-2xl mb-3">Integrates General Contracts and Merchandise</h2>

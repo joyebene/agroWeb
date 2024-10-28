@@ -29,7 +29,7 @@ const page = () => {
             {galleryImages.map((image) => (
               <div
                 key={image.id}
-                className=" h-[40vh] w-1/2 md:w-1/3 md:h-[50vh] xl:h-[60vh] p-4 flex items-stretch hover:scale-110 transition-all duration-300 "
+                className=" h-[30vh] w-1/2 md:w-1/3 md:h-[50vh] xl:h-[60vh] p-4 flex items-stretch hover:scale-110 transition-all duration-300 "
               >
                 
                 {image.img && (
@@ -46,7 +46,7 @@ const page = () => {
               </div>
             ))}
           </div>
-          <div className="px-6 py-5 bg-green-500 m-5 rounded-xl md:mt-12 xl:mt-14">
+          <div className="px-6 py-5 bg-green-500 m-5  mt-7 rounded-xl md:mt-12 xl:mt-14">
         <p className="mt-2 text-sm md:text-xl text-white">
           Explore our agricultural solutions and take the first step towards a bountiful harvest. <Link href="/contact" className="font-bold text-gray-500 underline hover:text-gray-300 transition-all duration-200" >Contact us today!</Link>
         </p>

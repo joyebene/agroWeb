@@ -120,7 +120,7 @@ export const galleryImages = [
   },
   {
     id: 3,
-    img: "/gllry/img2.jpg",
+    img: "/up-img/R8.jpg",
   },
   {
     id: 4,
@@ -132,11 +132,11 @@ export const galleryImages = [
   },
   {
     id: 6,
-    img: "/gllry/img5.jpg",
+    img: "/up-img/download.jpg",
   },
   {
     id: 7,
-    img: "/gllry/img6.jpg",
+    img: "/up-img/corn-bg.jpg",
   },
   {
     id: 8,
@@ -156,7 +156,7 @@ export const galleryImages = [
   },
   {
     id: 12,
-    img: "/gllry/R2.jpg",
+    img: "/up-img/y-del.jpg",
   },
   {
     id: 13,
@@ -164,7 +164,7 @@ export const galleryImages = [
   },
   {
     id: 14,
-    img: "/gllry/R4.jpg",
+    img: "/up-img/R7.jpg",
   },
   {
     id: 15,
@@ -172,7 +172,7 @@ export const galleryImages = [
   },
   {
     id: 16,
-    img: "/gllry/R6.jpg",
+    img: "/up-img/O.jpg",
   },
   {
     id: 17,
@@ -180,11 +180,11 @@ export const galleryImages = [
   },
   {
     id: 18,
-    img: "/gllry/R8.jpg",
+    img: "/up-img/Grin.webp",
   },
   {
     id: 19,
-    img: "/gllry/R9.jpg",
+    img: "/up-img/ben.jpg",
   },
   {
     id: 20,
@@ -196,11 +196,11 @@ export const galleryImages = [
   },
   {
     id: 22,
-    img: "/gllry/S2.jpg",
+    img: "/up-img/cr.jpg",
   },
   {
     id: 23,
-    img: "/gllry/S3.jpg",
+    img: "/up-img/ben-bg.jpg",
   },
   {
     id: 24,
@@ -212,18 +212,30 @@ export const galleryImages = [
   },
   {
     id: 26,
-    img: "/gllry/S7.jpg",
+    img: "/up-img/ym-seed.jpg",
   },
   {
     id: 27,
-    img: "/gllry/S8.jpg",
+    img: "/up-img/R2.jpg",
   },
   {
     id: 28,
-    img: "/gllry/S9.jpg",
+    img: "/up-img/OIP4.jpg",
   },
   {
     id: 29,
-    img: "/gllry/T.jpg",
+    img: "/up-img/OIP7.jpg",
+  },
+  {
+    id: 30,
+    img: "/up-img/bags-of-rice.jpg",
+  },
+  {
+    id: 31,
+    img: "/up-img/OIP3.jpg",
+  },
+  {
+    id: 32,
+    img: "/up-img/OIP9.jpg",
   },
 ];

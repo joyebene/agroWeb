@@ -43,7 +43,7 @@ const Feature = () => {
             className="object-contain px-2 pt-3"
           />
 
-          <span className="mt-32 text-gray-500">Explore...</span>
+          <span className="mt-28 md:mt-32 text-gray-500">Explore...</span>
         </Link>
       </div>
 

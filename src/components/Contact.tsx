@@ -13,7 +13,7 @@ const Contact = () => {
             Office Address
           </h2>
           <p className="pt-1">
-            No 5a Craig Street, <br /> Kano Line, <br /> Kano, <br />
+            No 30, Airport Road by Eldorado Cinema,<br />Kano,<br /> Kano State, <br />
             Nigeria.
           </p>
         </div>
@@ -22,7 +22,7 @@ const Contact = () => {
             For Enquiry
           </h2>
           <span>info@adforerunneragroventures.com</span> <br />
-          <span>+234 8172563702</span>
+          <span>+234 906 430 1880</span>
         </div>
       </div>
     </div>

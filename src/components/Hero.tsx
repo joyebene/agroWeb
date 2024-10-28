@@ -35,7 +35,7 @@ const Hero = () => {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
           >
-            Ad Forerunner Agro Ventures
+            Ad Forerunner Agro Venture
           </h1>
         </div>
         <h2 className="bg-inherit md:text-xl lg:text-2xl md:text-center text-lg">

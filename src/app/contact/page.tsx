@@ -3,6 +3,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
+    <div className="">
       <div className="relative h-[calc(100vh-19rem)] mt-[8rem] overflow-hidden ">
         <Image
           src="/hero/R9.jpg"
@@ -16,6 +17,7 @@ const page = () => {
           </h1>
         </div>
       </div>
+      </div>
 
       <div className=" px-4 pt-9  md:pt-11 xl:pt-14">
         <h1 className="font-bold text-black text-3xl pt-5 md:pt-6 lg:pt-7 md:text-4xl lg:text-5xl">
@@ -24,6 +26,10 @@ const page = () => {
         <p className="pt-3 md:text-xl lg:text-2xl">Our lines are instant and always open within the time of work.</p>
         <span className="font-bold md:text-xl lg:text-2xl">9:00am-6:00pm</span> <br />
         <span className="font-bold md:text-xl lg:text-2xl">Mondays-Fridays</span>
+
+     
+          <Image src="/cont.png" alt="img" height={300} width={300}className=" object-cover rounded-3xl my-9" />
+       
 
       </div>
     </>

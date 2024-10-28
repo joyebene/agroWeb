@@ -9,7 +9,7 @@ const Footer = () => {
         <span></span>
       </div>
 
-      <div className="text-center text-sm md:text-base">
+      <div className="text-center text-sm md:text-base py-5">
         &copy; Copyright 2024-AD Forerunner Agro Ventures
       </div>
     </div>

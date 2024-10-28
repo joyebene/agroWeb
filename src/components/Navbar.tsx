@@ -24,7 +24,7 @@ const Navbar = () => {
               className="object-contain rounded-tl-xl rounded-br-xl"
             />
             <span className="text-xs md:text-sm">
-              AD Forerunner Agro Ventures
+              AD Forerunner Agro Venture
             </span>
           </div>
 

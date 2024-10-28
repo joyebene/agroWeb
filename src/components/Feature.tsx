@@ -13,7 +13,7 @@ const Feature = () => {
           href="/product"
           className="w-1/3 shadow-md mr-3 rounded-lg h-full flex flex-col items-center relative "
         >
-          <h1 className="pt-5 text-lg text-center">Seeds</h1>
+          <h1 className="pt-5 text-lg text-center px-2">Seeds</h1>
           <Image
             src="/seeds/R6.jpg"
             alt="img"
@@ -24,7 +24,7 @@ const Feature = () => {
         </Link>
 
         <Link href="/product" className="w-1/3 shadow-md mr-3 rounded-lg h-full flex flex-col items-center relative">
-          <h1 className="pt-5 text-lg text-center">Agro Chem</h1>
+          <h1 className="pt-5 text-lg text-center px-2">Chemicals</h1>
           <Image
             src="/chemicals/R5.webp"
             alt="img"
@@ -35,7 +35,7 @@ const Feature = () => {
           <span className="mt-36 text-gray-500">Explore...</span>
         </Link>
         <Link href="/product" className="w-1/3 shadow-md mr-3 rounded-lg h-full flex flex-col items-center relative">
-          <h1 className="pt-5 text-lg text-center px-2">Equip and Mach</h1>
+          <h1 className="pt-5 text-lg text-center px-2">Equip/Mach</h1>
           <Image
             src="/machinery/R7.jpg"
             alt="img"
@@ -43,7 +43,7 @@ const Feature = () => {
             className="object-contain px-2 pt-3"
           />
 
-          <span className="mt-24 md:mt-32 text-gray-500">Explore...</span>
+          <span className="mt-36 text-gray-500">Explore...</span>
         </Link>
       </div>
 

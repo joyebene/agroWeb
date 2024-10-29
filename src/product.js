@@ -107,7 +107,7 @@ export const Machinery = [
   {
     id: 5,
     title: " Wheel Tractor ",
-    img: "/machinery/wheel-tractor.webp ",
+    img: "/machinery/Captain.png",
     desc: "High-performance wheel tractor for effiecient farming operations. It offers powerful traction, advanced hydraulics, and ergonomic design for optimal productivity.",
   },
 ];

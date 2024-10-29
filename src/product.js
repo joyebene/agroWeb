@@ -17,18 +17,21 @@ export const seedProducts = [
     img: "/seeds/tuber.jpg",
     desc: "High quality tuber seeds for optimal yields and flavor. Our seeds ensure excellent germination, disease resistance, and adaptability to various climates. ",
   },
+
   {
     id: 4,
-    title: "corn",
-    img: "/seeds/corn2.jpg ",
-    desc: "High quality corn seeds for optimal yields and flavor. Our seeds ensure excellent germination, disease resistance, and adaptability to various climates.",
-  },
-  {
-    id: 5,
     title: "Red Beans",
     img: "/seeds/R9.jpg",
     desc: "Compact, easy-to-grow beans for fresh or cooked applications.",
   },
+
+  {
+    id: 5,
+    title: "corn",
+    img: "/seeds/hmm.jpg",
+    desc: "High quality corn seeds for optimal yields and flavor. Our seeds ensure excellent germination, disease resistance, and adaptability to various climates.",
+  },
+
   {
     id: 6,
     title: "White Beans",
@@ -94,7 +97,7 @@ export const Machinery = [
     title: "Aqua Wheel",
     img: "/machinery/R0.webp",
     desc: "Portable and efficient water tank wheel with a gasoline engine for agricultural, industral, and residential water transportation needs. ",
-  }, 
+  },
   {
     id: 4,
     title: "Sprayer Tractor",
@@ -104,10 +107,9 @@ export const Machinery = [
   {
     id: 5,
     title: " Wheel Tractor ",
-    img: "/machinery/R5.jpg ",
+    img: "/machinery/wheel-tractor.webp ",
     desc: "High-performance wheel tractor for effiecient farming operations. It offers powerful traction, advanced hydraulics, and ergonomic design for optimal productivity.",
   },
- 
 ];
 
 export const galleryImages = [

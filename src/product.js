@@ -20,7 +20,7 @@ export const seedProducts = [
   {
     id: 4,
     title: "corn",
-    img: "/seeds/R8.jpg ",
+    img: "/seeds/corn2.jpg ",
     desc: "High quality corn seeds for optimal yields and flavor. Our seeds ensure excellent germination, disease resistance, and adaptability to various climates.",
   },
   {
@@ -94,19 +94,20 @@ export const Machinery = [
     title: "Aqua Wheel",
     img: "/machinery/R0.webp",
     desc: "Portable and efficient water tank wheel with a gasoline engine for agricultural, industral, and residential water transportation needs. ",
-  },
+  }, 
   {
     id: 4,
-    title: " Wheel Tractor ",
-    img: "/machinery/R5.jpg ",
-    desc: "High-performance wheel tractor for effiecient farming operations. It offers powerful traction, advanced hydraulics, and ergonomic design for optimal productivity.",
-  },
-  {
-    id: 5,
     title: "Sprayer Tractor",
     img: "/machinery/R9.jpg",
     desc: "High Performance sprayer tractor for efficeint crop protection and nutrient application. It ensures precise chemical application, reducing waste and environmental impact. ",
   },
+  {
+    id: 5,
+    title: " Wheel Tractor ",
+    img: "/machinery/R5.jpg ",
+    desc: "High-performance wheel tractor for effiecient farming operations. It offers powerful traction, advanced hydraulics, and ergonomic design for optimal productivity.",
+  },
+ 
 ];
 
 export const galleryImages = [
@@ -132,7 +133,7 @@ export const galleryImages = [
   },
   {
     id: 6,
-    img: "/up-img/download.jpg",
+    img: "/up-img/crn.jpg",
   },
   {
     id: 7,
@@ -144,11 +145,11 @@ export const galleryImages = [
   },
   {
     id: 9,
-    img: "/gllry/img8.jpg",
+    img: "/gllry/V.jpg",
   },
   {
     id: 10,
-    img: "/gllry/R.jpg",
+    img: "/gllry/V4.jpg",
   },
   {
     id: 11,
@@ -164,7 +165,7 @@ export const galleryImages = [
   },
   {
     id: 14,
-    img: "/up-img/R7.jpg",
+    img: "/gllry/V5.jpg",
   },
   {
     id: 15,
@@ -200,7 +201,7 @@ export const galleryImages = [
   },
   {
     id: 23,
-    img: "/up-img/ben-bg.jpg",
+    img: "/up-img/soybean.webp",
   },
   {
     id: 24,
@@ -212,23 +213,23 @@ export const galleryImages = [
   },
   {
     id: 26,
-    img: "/up-img/ym-seed.jpg",
+    img: "/gllry/V3.jpg",
   },
   {
     id: 27,
-    img: "/up-img/R2.jpg",
+    img: "/gllry/corn.jpg",
   },
   {
     id: 28,
-    img: "/up-img/OIP4.jpg",
-  },
-  {
-    id: 29,
     img: "/up-img/OIP7.jpg",
   },
   {
+    id: 29,
+    img: "/gllry/yam.jpg",
+  },
+  {
     id: 30,
-    img: "/up-img/bags-of-rice.jpg",
+    img: "/up-img/OIP9.jpg",
   },
   {
     id: 31,
@@ -236,6 +237,6 @@ export const galleryImages = [
   },
   {
     id: 32,
-    img: "/up-img/OIP9.jpg",
+    img: "/up-img/bags-of-rice.jpg",
   },
 ];

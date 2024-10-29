@@ -55,7 +55,7 @@ const Feature = () => {
           href="/product"
           className="w-1/3 shadow-md mr-3 rounded-lg h-full flex flex-col items-center relative"
         >
-          <h1 className="pt-5 text-lg text-center">Seeds</h1>
+          <h1 className="pt-5 text-lg text-center px-2">Seeds</h1>
           <Image
             src="/seeds/R6.jpg"
             alt="img"

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Slider from "./Slider";
 
 const Intro = () => {
   return (
@@ -10,20 +11,33 @@ const Intro = () => {
 
       {/* TEXT CONTaINER */}
       <div className=" text-center flex-1 md:w-[45%] pr-4 ">
-        <h1 className="font-bold text-3xl flex-wrap pt-9 pb-4 md:text-4xl lg:text-5xl">Welcome to Ad Forerunner Agro venture</h1>
+        <h1 className="font-bold text-3xl flex-wrap pt-9 pb-4 md:text-4xl lg:text-5xl">Welcome to AD Forerunner Agro venture</h1>
         <p className="px-2 md:text-md lg:text-lg">
-        Ad Forerunner Agro venture is a dynamic business that specializes in agro-related activities designed to drive growth and innovation while meeting diverse needs of the agricultural sector. Our business model is to ensure delivery of comprehensive solutions across the industry. 
+        AD Forerunner Agro venture is a dynamic business that specializes in agro-related activities designed to drive growth and innovation while meeting diverse needs of the agricultural sector. Our business model is to ensure delivery of comprehensive solutions across the industry. 
         </p>
       </div>
 
       {/* IMaGE CONTaINER */}
-      <div className="relative w-full flex-1 md:w-[45%] shadow-xl md:h-[70%] pl-4 rounded-xl ">
+
+
+      <div className="relative flex-1 w-[90%] shadow-xl md:hidden rounded-xl overflow-hidden p-5 mt-5">
+        <Slider />
+      </div>
+
+      
+
+
+
+
+
+
+      <div className="relative w-full flex-1 md:w-[45%] shadow-xl md:h-[70%] pl-4 rounded-xl hidden md:block ">
         <Image src="/hero/R6.jpg" alt="img" fill className="object-cover rounded-xl " />
       </div>
     </div>
 
     {/* WHAT WE OFFER SECTION */}
-    <div className="py-12 w-full">
+    <div className="py-12 w-full mt-7">
       <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center text-green-500 my-4">What We Do</h1>
       <div className="flex flex-col md:flex-row md:items-stretch items-center justify-center mt-6 px-6 md:px-10">
         <div className=" p-4 text-center bg-green-500 m-5 rounded-2xl shadow-xl">
@@ -35,7 +49,7 @@ const Intro = () => {
         <Image src="/icon7.png" alt="img" width={100} height={100} className="mx-auto mb-2 mt-1"/>
           
           <h2 className="font-bold text-lg md:text-xl lg:text-2xl mb-3">Commercial Agriculture</h2>
-          <p className="">We cultivates success through high-yielding crops, strategic market analysis, and cost-effetive operations, ensuring sustainable profits for our stakeholders.</p>
+          <p className="">We cultivate success through high-yielding crops, strategic market analysis, and cost-effetive operations, ensuring sustainable profits for our stakeholders.</p>
         </div>
         <div className="p-4 text-center bg-green-500 m-5 rounded-2xl shadow-xl">
           <Image src="/icon6.png" alt="img" width={100} height={100} className="mx-auto mb-2 mt-1" />

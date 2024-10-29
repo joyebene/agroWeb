@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
     <div className="">
-      <div className="relative h-[calc(100vh-19rem)] mt-[8rem] overflow-hidden ">
+      <div className="relative h-[calc(100vh-19rem)] mt-[8rem] overflow-hidden">
         <Image
           src="/hero/R9.jpg"
           alt="img"

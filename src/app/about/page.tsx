@@ -26,8 +26,7 @@ const page = () => {
         </h1>
         <div className="flex flex-col items-center justify-center md:flex-row w-full gap-5">
           <p className="pt-2 md:pt-3 lg:pt-4 h-1/2 md:w-1/2 md:text-xl">
-            Ad Forerunner Agro Ventures is a dynamic business specializing of
-            agro-related activities designed to drive growth and innovation
+            AD Forerunner Agro Venture is a dynamic business that specializes in agro-related activities designed to drive growth and innovation
             while meeting the diverse needs of the agricultural sector. Our
             business model integrates general contracts and merchandise,
             commercial agriculture, sales of agro-allied products, and
@@ -62,7 +61,7 @@ const page = () => {
           Our Mission
         </h1>
         <p className="mt-2 text-sm md:text-xl text-white">
-          Our mission is to ensuring high standards and reliability in all
+          Our mission is to ensure high standards and reliability in all
           contractual and product-related engagements, thus boosting yields and
           meeting market demands by making available staple foods as well as
           high level protein food from animal. We are committed to delivering

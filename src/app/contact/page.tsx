@@ -19,7 +19,7 @@ const page = () => {
       </div>
       </div>
 
-      <div className=" px-4 pt-9  md:pt-11 xl:pt-14">
+      <div className=" px-4 pt-9  md:pt-11 xl:pt-14 bg-white">
         <h1 className="font-bold text-black text-3xl pt-5 md:pt-6 lg:pt-7 md:text-4xl lg:text-5xl">
           Contact us
         </h1>

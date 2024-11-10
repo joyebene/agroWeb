@@ -26,25 +26,24 @@ const Hero = () => {
       </video>
       <div className="absolute inset-0  bg-green-500 bg-opacity-70 flex flex-col md:justify-center md:items-center justify-center items-start pl-10 gap-4">
         <div>
-          <p className="uppercase text-white text-xs font-bold md:text-sm md:text-center">
+          <p className="uppercase text-white text-sm leading-tight text-balance font-bold md:text-sm md:text-center">
             Your partner in sustainable agriculture
           </p>
           <h1
-            className={`uppercase font-bold text-3xl md:text:4xl lg:text-5xl 
-          transition-opacity duration-1000 ${
+            className={`uppercase font-bold text-4xl md:text:5xl lg:text-6xl text-balance leading-tight tracking-tight transition-opacity duration-1000 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
           >
             Ad Forerunner Agro Venture
           </h1>
         </div>
-        <h2 className="bg-inherit md:text-xl lg:text-2xl md:text-center text-lg">
+        <h2 className="bg-inherit md:text-xl lg:text-2xl md:text-center text-xl tracking-tight leading-tight">
           Cultivating a Sustainable Future, and <br />
           Empowering Agriculture Through Innovation
         </h2>
         <Link
           href="/about"
-          className="rounded-md py-2 px-4  bg-white mt-5 md:py-3 md:px-6 hover:bg-green-500 hover:border-2 hover:text-white"
+          className="rounded-md py-2 px-4  bg-white mt-5 text-black md:py-3 md:px-6 hover:bg-green-500 hover:border-2 hover:text-white"
         >
           Get Started
         </Link>

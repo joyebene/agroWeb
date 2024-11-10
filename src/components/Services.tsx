@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-20 mt-6 text-base md:text-xl px-1">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-20 mt-6 text-base md:text-xl px-1 bg-white">
       <div className="flex flex-col gap-5">
         <p className="">
           <span className="font-bold text-xl">AD Forerunner Agro Ventures</span>{" "}

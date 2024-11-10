@@ -8,7 +8,7 @@ import React from "react";
 export default function Home() {
   return (
 
-    <div>
+    <div className="bg-white">
       <Hero/>
       <Intro/>
       <Feature/>

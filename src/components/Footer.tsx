@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="text-green-500">
+    <div className="text-green-500 bg-white">
       <hr className="text-gray-500 mx-4 md:mx-5" />
       <div className="flex items-center justify-evenly py-6 text-base md:text-lg">
         <span>Facebook</span> <span>Twitter</span> <span>Instagram</span>{" "}

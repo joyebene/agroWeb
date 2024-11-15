@@ -37,7 +37,7 @@ const Intro = () => {
     </div>
 
     {/* WHAT WE OFFER SECTION */}
-    <div className="py-12 w-full mt-7 bg-white">
+    <div className="py-12 w-full mt-7">
       <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl text-center text-green-500 my-4">What We Do</h1>
       <div className="flex flex-col md:flex-row md:items-stretch items-center justify-center mt-6 px-6 md:px-10">
         <div className=" p-4 text-center bg-green-500 m-5 rounded-2xl shadow-xl text-black">

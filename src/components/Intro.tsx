@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="">
 
     {/* INTRO SECTION */}
-    <div className=" relative flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center bg-white  text-green-600 h-[calc(100vh-6rem)] p-4 w-screen  rounded-lg md:px-16">
+    <div className=" relative flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  text-green-600 h-[calc(100vh-6rem)] p-4 w-screen  rounded-lg md:px-16">
 
       {/* TEXT CONTaINER */}
       <div className=" text-center flex-1 md:w-[45%] pr-4">

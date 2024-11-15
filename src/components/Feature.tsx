@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Feature = () => {
   return (
-    <div className="py-10 mb-24 px-5 h-96 md:px-10 lg:px-15 bg-white">
+    <div className="py-10 mb-24 px-5 h-96 md:px-10 lg:px-15">
       <h1 className="font-bold text-green-500 text-4xl md:text-5xl lg:text-6xl pb-8 text-center tracking-tight ">Feature Products</h1>
 
       {/*MOBILE PRODUCTS */}

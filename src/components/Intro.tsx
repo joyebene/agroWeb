@@ -10,7 +10,7 @@ const Intro = () => {
     <div className=" relative flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center bg-white  text-green-600 h-[calc(100vh-6rem)] p-4 w-screen  rounded-lg md:px-16">
 
       {/* TEXT CONTaINER */}
-      <div className=" text-center flex-1 md:w-[45%] pr-4 bg-white ">
+      <div className=" text-center flex-1 md:w-[45%] pr-4">
         <h1 className="font-bold text-3xl flex-wrap pt-9 pb-4 md:text-4xl lg:text-5xl">Welcome to AD Forerunner Agro venture</h1>
         <p className="px-2 text-lg md:text-lg lg:text-xl">
         AD Forerunner Agro venture is a dynamic business that specializes in agro-related activities designed to drive growth and innovation while meeting diverse needs of the agricultural sector. Our business model is to ensure delivery of comprehensive solutions across the industry. 

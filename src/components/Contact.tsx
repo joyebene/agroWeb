@@ -21,7 +21,7 @@ const Contact = () => {
           <h2 className="text-green-600 font-semibold pb-1 text-xl">
             For Enquiry
           </h2>
-          <span>info@adforerunneragroventures.com</span> <br />
+          <span>forerunnerglobalagrobusiness@gmail.com </span> <br />
           <span>+234 906 430 1880</span>
         </div>
       </div>

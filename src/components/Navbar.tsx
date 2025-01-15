@@ -17,7 +17,7 @@ const Navbar = () => {
           {/* Nav LOGO */}
           <div className="relative flex items-center gap-2 md:gap-5">
             <Image
-              src="/logo2.jpg"
+              src="/imgg.jpg"
               alt="img"
               width={60}
               height={60}
@@ -80,7 +80,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-24 px-6">
             <div className="relative">
               <Image
-                src="/logo2.jpg"
+                src="/imgg.jpg"
                 alt="img"
                 width={60}
                 height={60}

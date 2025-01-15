@@ -28,7 +28,7 @@ const page = () => {
         <span className="font-bold md:text-xl lg:text-2xl">Mondays-Fridays</span>
 
      
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.344453022905!2d8.540171374231932!3d12.01979078821495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae813a3b702983%3A0x2a6776e06906a7d2!2sEl-dorado%20Cinema!5e0!3m2!1sen!2sng!4v1736968882755!5m2!1sen!2sng" width="600" height="450" className="border-none" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.344453022905!2d8.540171374231932!3d12.01979078821495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae813a3b702983%3A0x2a6776e06906a7d2!2sEl-dorado%20Cinema!5e0!3m2!1sen!2sng!4v1736968882755!5m2!1sen!2sng" width="300" height="450" className="border-none rounded-xl mt-5 md:w-[600px]" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
        
 
       </div>

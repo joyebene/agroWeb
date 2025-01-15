@@ -13,7 +13,7 @@ const Contact = () => {
             Office Address
           </h2>
           <p className="pt-1">
-            No 30, Airport Road by Eldorado Cinema,<br />Kano,<br /> Kano State, <br />
+            No 30, Airport Road by Eldorado Cinema,<br />  Kano, <br /> Kano State, <br />
             Nigeria.
           </p>
         </div>
